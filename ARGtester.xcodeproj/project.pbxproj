@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A15DCF817D9A16900CF0C60 /* stuhl_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF317D9A16900CF0C60 /* stuhl_shadow.png */; };
+		7A15DCF917D9A16900CF0C60 /* stuhl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF417D9A16900CF0C60 /* stuhl.jpg */; };
+		7A15DCFA17D9A16900CF0C60 /* stuhl.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF517D9A16900CF0C60 /* stuhl.mtl */; };
+		7A15DCFB17D9A16900CF0C60 /* stuhl.obj in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF617D9A16900CF0C60 /* stuhl.obj */; };
+		7A15DCFC17D9A16900CF0C60 /* TrackingData_Marker.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF717D9A16900CF0C60 /* TrackingData_Marker.xml */; };
+		7A15DD0017D9AEC400CF0C60 /* MetaioViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A15DCFF17D9AEC400CF0C60 /* MetaioViewController.mm */; };
 		7AF6000B17D859AE00C81863 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6000A17D859AE00C81863 /* UIKit.framework */; };
 		7AF6000D17D859AE00C81863 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6000C17D859AE00C81863 /* Foundation.framework */; };
 		7AF6000F17D859AE00C81863 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6000E17D859AE00C81863 /* CoreGraphics.framework */; };
@@ -18,9 +24,31 @@
 		7AF6002117D859AE00C81863 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF6002017D859AE00C81863 /* Default-568h@2x.png */; };
 		7AF6002417D859AE00C81863 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF6002217D859AE00C81863 /* MainStoryboard.storyboard */; };
 		7AF6002717D859AE00C81863 /* RIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6002617D859AE00C81863 /* RIViewController.m */; };
+		7AF6003017D85E3B00C81863 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6002F17D85E3B00C81863 /* libz.dylib */; };
+		7AF6003217D85E6C00C81863 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6003117D85E6C00C81863 /* QuartzCore.framework */; };
+		7AF6003417D85E7D00C81863 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6003317D85E7D00C81863 /* CFNetwork.framework */; };
+		7AF6003617D85EAB00C81863 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6003517D85EAB00C81863 /* AudioToolbox.framework */; };
+		7AF6003817D85EB600C81863 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6003717D85EB600C81863 /* OpenGLES.framework */; };
+		7AF6003A17D85ED700C81863 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6003917D85ED700C81863 /* AVFoundation.framework */; };
+		7AF6003C17D85F1300C81863 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6003B17D85F1300C81863 /* Security.framework */; };
+		7AF6003E17D85F2900C81863 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6003D17D85F2900C81863 /* CoreMedia.framework */; };
+		7AF6004017D85F4300C81863 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6003F17D85F4300C81863 /* CoreLocation.framework */; };
+		7AF6004217D85F8E00C81863 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6004117D85F8E00C81863 /* CoreMotion.framework */; };
+		7AF6004417D85FDA00C81863 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6004317D85FDA00C81863 /* CoreVideo.framework */; };
+		7AF6004617D8608B00C81863 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6004517D8608B00C81863 /* libxml2.dylib */; };
+		7AF6004817D860EF00C81863 /* metaioSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6004717D860EF00C81863 /* metaioSDK.framework */; };
+		7AF6004D17D8634400C81863 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6004A17D8634400C81863 /* EAGLView.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7AF6004E17D8634400C81863 /* MetaioSDKViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6004C17D8634400C81863 /* MetaioSDKViewController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A15DCF317D9A16900CF0C60 /* stuhl_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stuhl_shadow.png; path = object/stuhl_shadow.png; sourceTree = "<group>"; };
+		7A15DCF417D9A16900CF0C60 /* stuhl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stuhl.jpg; path = object/stuhl.jpg; sourceTree = "<group>"; };
+		7A15DCF517D9A16900CF0C60 /* stuhl.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; name = stuhl.mtl; path = object/stuhl.mtl; sourceTree = "<group>"; };
+		7A15DCF617D9A16900CF0C60 /* stuhl.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = stuhl.obj; path = object/stuhl.obj; sourceTree = "<group>"; };
+		7A15DCF717D9A16900CF0C60 /* TrackingData_Marker.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = TrackingData_Marker.xml; path = object/TrackingData_Marker.xml; sourceTree = "<group>"; };
+		7A15DCFE17D9AEC400CF0C60 /* MetaioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaioViewController.h; sourceTree = "<group>"; };
+		7A15DCFF17D9AEC400CF0C60 /* MetaioViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetaioViewController.mm; sourceTree = "<group>"; };
 		7AF6000717D859AE00C81863 /* ARGtester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARGtester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF6000A17D859AE00C81863 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7AF6000C17D859AE00C81863 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +65,23 @@
 		7AF6002317D859AE00C81863 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7AF6002517D859AE00C81863 /* RIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIViewController.h; sourceTree = "<group>"; };
 		7AF6002617D859AE00C81863 /* RIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIViewController.m; sourceTree = "<group>"; };
+		7AF6002F17D85E3B00C81863 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7AF6003117D85E6C00C81863 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7AF6003317D85E7D00C81863 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7AF6003517D85EAB00C81863 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7AF6003717D85EB600C81863 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7AF6003917D85ED700C81863 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7AF6003B17D85F1300C81863 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7AF6003D17D85F2900C81863 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7AF6003F17D85F4300C81863 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7AF6004117D85F8E00C81863 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7AF6004317D85FDA00C81863 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7AF6004517D8608B00C81863 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		7AF6004717D860EF00C81863 /* metaioSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = metaioSDK.framework; sourceTree = "<group>"; };
+		7AF6004917D8634400C81863 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		7AF6004A17D8634400C81863 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		7AF6004B17D8634400C81863 /* MetaioSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaioSDKViewController.h; sourceTree = "<group>"; };
+		7AF6004C17D8634400C81863 /* MetaioSDKViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetaioSDKViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +89,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF6004817D860EF00C81863 /* metaioSDK.framework in Frameworks */,
+				7AF6004617D8608B00C81863 /* libxml2.dylib in Frameworks */,
+				7AF6004417D85FDA00C81863 /* CoreVideo.framework in Frameworks */,
+				7AF6004217D85F8E00C81863 /* CoreMotion.framework in Frameworks */,
+				7AF6004017D85F4300C81863 /* CoreLocation.framework in Frameworks */,
+				7AF6003E17D85F2900C81863 /* CoreMedia.framework in Frameworks */,
+				7AF6003C17D85F1300C81863 /* Security.framework in Frameworks */,
+				7AF6003A17D85ED700C81863 /* AVFoundation.framework in Frameworks */,
+				7AF6003817D85EB600C81863 /* OpenGLES.framework in Frameworks */,
+				7AF6003617D85EAB00C81863 /* AudioToolbox.framework in Frameworks */,
+				7AF6003417D85E7D00C81863 /* CFNetwork.framework in Frameworks */,
+				7AF6003217D85E6C00C81863 /* QuartzCore.framework in Frameworks */,
+				7AF6003017D85E3B00C81863 /* libz.dylib in Frameworks */,
 				7AF6000B17D859AE00C81863 /* UIKit.framework in Frameworks */,
 				7AF6000D17D859AE00C81863 /* Foundation.framework in Frameworks */,
 				7AF6000F17D859AE00C81863 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +111,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A15DCFD17D9A19A00CF0C60 /* Assert */ = {
+			isa = PBXGroup;
+			children = (
+				7A15DCF317D9A16900CF0C60 /* stuhl_shadow.png */,
+				7A15DCF717D9A16900CF0C60 /* TrackingData_Marker.xml */,
+				7A15DCF617D9A16900CF0C60 /* stuhl.obj */,
+				7A15DCF517D9A16900CF0C60 /* stuhl.mtl */,
+				7A15DCF417D9A16900CF0C60 /* stuhl.jpg */,
+			);
+			name = Assert;
+			sourceTree = "<group>";
+		};
 		7AF6000817D859AE00C81863 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +134,19 @@
 		7AF6000917D859AE00C81863 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7AF6004717D860EF00C81863 /* metaioSDK.framework */,
+				7AF6004517D8608B00C81863 /* libxml2.dylib */,
+				7AF6002F17D85E3B00C81863 /* libz.dylib */,
+				7AF6004317D85FDA00C81863 /* CoreVideo.framework */,
+				7AF6004117D85F8E00C81863 /* CoreMotion.framework */,
+				7AF6003F17D85F4300C81863 /* CoreLocation.framework */,
+				7AF6003D17D85F2900C81863 /* CoreMedia.framework */,
+				7AF6003B17D85F1300C81863 /* Security.framework */,
+				7AF6003917D85ED700C81863 /* AVFoundation.framework */,
+				7AF6003717D85EB600C81863 /* OpenGLES.framework */,
+				7AF6003517D85EAB00C81863 /* AudioToolbox.framework */,
+				7AF6003317D85E7D00C81863 /* CFNetwork.framework */,
+				7AF6003117D85E6C00C81863 /* QuartzCore.framework */,
 				7AF6000A17D859AE00C81863 /* UIKit.framework */,
 				7AF6000C17D859AE00C81863 /* Foundation.framework */,
 				7AF6000E17D859AE00C81863 /* CoreGraphics.framework */,
@@ -101,6 +184,13 @@
 		7AF6FFFE17D859AE00C81863 = {
 			isa = PBXGroup;
 			children = (
+				7A15DCFE17D9AEC400CF0C60 /* MetaioViewController.h */,
+				7A15DCFF17D9AEC400CF0C60 /* MetaioViewController.mm */,
+				7A15DCFD17D9A19A00CF0C60 /* Assert */,
+				7AF6004917D8634400C81863 /* EAGLView.h */,
+				7AF6004A17D8634400C81863 /* EAGLView.mm */,
+				7AF6004B17D8634400C81863 /* MetaioSDKViewController.h */,
+				7AF6004C17D8634400C81863 /* MetaioSDKViewController.mm */,
 				7AF6001017D859AE00C81863 /* ARGtester */,
 				7AF6000917D859AE00C81863 /* Frameworks */,
 				7AF6000817D859AE00C81863 /* Products */,
@@ -159,6 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A15DCF817D9A16900CF0C60 /* stuhl_shadow.png in Resources */,
+				7A15DCF917D9A16900CF0C60 /* stuhl.jpg in Resources */,
+				7A15DCFA17D9A16900CF0C60 /* stuhl.mtl in Resources */,
+				7A15DCFB17D9A16900CF0C60 /* stuhl.obj in Resources */,
+				7A15DCFC17D9A16900CF0C60 /* TrackingData_Marker.xml in Resources */,
 				7AF6001517D859AE00C81863 /* InfoPlist.strings in Resources */,
 				7AF6001D17D859AE00C81863 /* Default.png in Resources */,
 				7AF6001F17D859AE00C81863 /* Default@2x.png in Resources */,
@@ -177,6 +272,9 @@
 				7AF6001717D859AE00C81863 /* main.m in Sources */,
 				7AF6001B17D859AE00C81863 /* RIAppDelegate.m in Sources */,
 				7AF6002717D859AE00C81863 /* RIViewController.m in Sources */,
+				7AF6004D17D8634400C81863 /* EAGLView.mm in Sources */,
+				7AF6004E17D8634400C81863 /* MetaioSDKViewController.mm in Sources */,
+				7A15DD0017D9AEC400CF0C60 /* MetaioViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,17 +304,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 洋俊 奥村 (67MU6T9P47)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -227,8 +326,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -237,22 +337,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 洋俊 奥村 (67MU6T9P47)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -261,10 +363,19 @@
 		7AF6002B17D859AE00C81863 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARGtester/ARGtester-Prefix.pch";
 				INFOPLIST_FILE = "ARGtester/ARGtester-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/metaioSDK.framework\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,10 +383,19 @@
 		7AF6002C17D859AE00C81863 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/\"";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARGtester/ARGtester-Prefix.pch";
 				INFOPLIST_FILE = "ARGtester/ARGtester-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/metaioSDK.framework\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +419,7 @@
 				7AF6002C17D859AE00C81863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
