@@ -4,6 +4,26 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets/TrackingData_Marker.xml</key>
+		<data>
+		qa/YgWb6S32k+ccKpEnw/GrwGE0=
+		</data>
+		<key>Assets/stuhl.jpg</key>
+		<data>
+		6TOLU3IDgC6hl6DMHoMKYhA6GPw=
+		</data>
+		<key>Assets/stuhl.mtl</key>
+		<data>
+		anLXZ7OgNjftLgJ+FNpSuP5HKZc=
+		</data>
+		<key>Assets/stuhl.obj</key>
+		<data>
+		/eJKaPPW6+zOEz+aN3HOmKc0lvM=
+		</data>
+		<key>Assets/stuhl_shadow.png</key>
+		<data>
+		X8oouYBzoylG4kC9Omm/tG5ju6A=
+		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
 		D8STS3mHDv2ya6HKCvP6jrq8eig=

@@ -1,3 +1,2 @@
-dependencies: \
-  /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIAppDelegate.m \
-  /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIAppDelegate.h
+dependencies: /Users/okumura/ARGtester/ARGtester/RIAppDelegate.m \
+  /Users/okumura/ARGtester/ARGtester/RIAppDelegate.h

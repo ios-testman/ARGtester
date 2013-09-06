@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A15DCF817D9A16900CF0C60 /* stuhl_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF317D9A16900CF0C60 /* stuhl_shadow.png */; };
-		7A15DCF917D9A16900CF0C60 /* stuhl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF417D9A16900CF0C60 /* stuhl.jpg */; };
-		7A15DCFA17D9A16900CF0C60 /* stuhl.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF517D9A16900CF0C60 /* stuhl.mtl */; };
-		7A15DCFB17D9A16900CF0C60 /* stuhl.obj in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF617D9A16900CF0C60 /* stuhl.obj */; };
-		7A15DCFC17D9A16900CF0C60 /* TrackingData_Marker.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7A15DCF717D9A16900CF0C60 /* TrackingData_Marker.xml */; };
 		7A15DD0017D9AEC400CF0C60 /* MetaioViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A15DCFF17D9AEC400CF0C60 /* MetaioViewController.mm */; };
+		7A652BA317D9CA1300157569 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 7A652BA217D9CA1300157569 /* Assets */; };
 		7AF6000B17D859AE00C81863 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6000A17D859AE00C81863 /* UIKit.framework */; };
 		7AF6000D17D859AE00C81863 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6000C17D859AE00C81863 /* Foundation.framework */; };
 		7AF6000F17D859AE00C81863 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF6000E17D859AE00C81863 /* CoreGraphics.framework */; };
@@ -42,13 +38,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A15DCF317D9A16900CF0C60 /* stuhl_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stuhl_shadow.png; path = object/stuhl_shadow.png; sourceTree = "<group>"; };
-		7A15DCF417D9A16900CF0C60 /* stuhl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stuhl.jpg; path = object/stuhl.jpg; sourceTree = "<group>"; };
-		7A15DCF517D9A16900CF0C60 /* stuhl.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; name = stuhl.mtl; path = object/stuhl.mtl; sourceTree = "<group>"; };
-		7A15DCF617D9A16900CF0C60 /* stuhl.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = stuhl.obj; path = object/stuhl.obj; sourceTree = "<group>"; };
-		7A15DCF717D9A16900CF0C60 /* TrackingData_Marker.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = TrackingData_Marker.xml; path = object/TrackingData_Marker.xml; sourceTree = "<group>"; };
 		7A15DCFE17D9AEC400CF0C60 /* MetaioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaioViewController.h; sourceTree = "<group>"; };
 		7A15DCFF17D9AEC400CF0C60 /* MetaioViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetaioViewController.mm; sourceTree = "<group>"; };
+		7A652BA217D9CA1300157569 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		7AF6000717D859AE00C81863 /* ARGtester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARGtester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF6000A17D859AE00C81863 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7AF6000C17D859AE00C81863 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -111,18 +103,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A15DCFD17D9A19A00CF0C60 /* Assert */ = {
-			isa = PBXGroup;
-			children = (
-				7A15DCF317D9A16900CF0C60 /* stuhl_shadow.png */,
-				7A15DCF717D9A16900CF0C60 /* TrackingData_Marker.xml */,
-				7A15DCF617D9A16900CF0C60 /* stuhl.obj */,
-				7A15DCF517D9A16900CF0C60 /* stuhl.mtl */,
-				7A15DCF417D9A16900CF0C60 /* stuhl.jpg */,
-			);
-			name = Assert;
-			sourceTree = "<group>";
-		};
 		7AF6000817D859AE00C81863 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,9 +164,9 @@
 		7AF6FFFE17D859AE00C81863 = {
 			isa = PBXGroup;
 			children = (
+				7A652BA217D9CA1300157569 /* Assets */,
 				7A15DCFE17D9AEC400CF0C60 /* MetaioViewController.h */,
 				7A15DCFF17D9AEC400CF0C60 /* MetaioViewController.mm */,
-				7A15DCFD17D9A19A00CF0C60 /* Assert */,
 				7AF6004917D8634400C81863 /* EAGLView.h */,
 				7AF6004A17D8634400C81863 /* EAGLView.mm */,
 				7AF6004B17D8634400C81863 /* MetaioSDKViewController.h */,
@@ -249,11 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A15DCF817D9A16900CF0C60 /* stuhl_shadow.png in Resources */,
-				7A15DCF917D9A16900CF0C60 /* stuhl.jpg in Resources */,
-				7A15DCFA17D9A16900CF0C60 /* stuhl.mtl in Resources */,
-				7A15DCFB17D9A16900CF0C60 /* stuhl.obj in Resources */,
-				7A15DCFC17D9A16900CF0C60 /* TrackingData_Marker.xml in Resources */,
+				7A652BA317D9CA1300157569 /* Assets in Resources */,
 				7AF6001517D859AE00C81863 /* InfoPlist.strings in Resources */,
 				7AF6001D17D859AE00C81863 /* Default.png in Resources */,
 				7AF6001F17D859AE00C81863 /* Default@2x.png in Resources */,

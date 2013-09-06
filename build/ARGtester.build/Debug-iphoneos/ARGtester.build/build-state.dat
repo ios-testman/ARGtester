@@ -2,34 +2,30 @@ TARGtester
 v5
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/Info.plist ARGtester/ARGtester-Info.plist
+cProcessInfoPlistFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Info.plist ARGtester/ARGtester-Info.plist
 cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/ARGtester.app/ResourceRules.plist
-cProcessPCH /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fjrogatypjgwofhigrzjjnimmzxv/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-dfblhzhoeqgascgpenpifrcbsadf/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-bpemspykwmoktdbuhhfrdmugfdcz/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.o /Users/okumura/Example/NewPro_change/ARGtester/EAGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o /Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o /Users/okumura/Example/NewPro_change/ARGtester/MetaioViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester normal armv7
-cGenerateDSYMFile /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester
-cCpResource object/stuhl.jpg build/Debug-iphoneos/ARGtester.app/stuhl.jpg
-cCpResource object/stuhl.mtl build/Debug-iphoneos/ARGtester.app/stuhl.mtl
-cCopyPNGFile /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/stuhl_shadow.png object/stuhl_shadow.png
-cCpResource object/stuhl.obj build/Debug-iphoneos/ARGtester.app/stuhl.obj
-cCopyStringsFile /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/en.lproj/InfoPlist.strings ARGtester/en.lproj/InfoPlist.strings
-cCpResource object/TrackingData_Marker.xml build/Debug-iphoneos/ARGtester.app/TrackingData_Marker.xml
-cCopyPNGFile /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/Default.png ARGtester/Default.png
-cCopyPNGFile /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/Default@2x.png ARGtester/Default@2x.png
-cCopyPNGFile /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/Default-568h@2x.png ARGtester/Default-568h@2x.png
-cCompileStoryboard /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/en.lproj/MainStoryboard.storyboard
-cProcessProductPackaging "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision
-cProcessProductPackaging "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision
-cTouch /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester.xcent
-cCodeSign /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app
+cProcessPCH /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fzzextssnovdykgxzznfganloxer/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o /Users/okumura/ARGtester/ARGtester/RIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.o /Users/okumura/ARGtester/EAGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o /Users/okumura/ARGtester/ARGtester/RIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o /Users/okumura/ARGtester/MetaioSDKViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o /Users/okumura/ARGtester/ARGtester/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o /Users/okumura/ARGtester/MetaioViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester normal armv7
+cGenerateDSYMFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester
+cCopyStringsFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/en.lproj/InfoPlist.strings ARGtester/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Default.png ARGtester/Default.png
+cCopyPNGFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Default@2x.png ARGtester/Default@2x.png
+cCpResource Assets build/Debug-iphoneos/ARGtester.app/Assets
+cCopyPNGFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Default-568h@2x.png ARGtester/Default-568h@2x.png
+cCompileStoryboard /Users/okumura/ARGtester/ARGtester/en.lproj/MainStoryboard.storyboard
+cProcessProductPackaging "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision
+cTouch /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester.xcent
+cCodeSign /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
 c0000000051C2507A0000000000000110
@@ -135,6 +131,309 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 c00000000511314C80000000000022520
 t1360205000
 s140576
+
+N/Users/okumura/ARGtester/ARGtester/ARGtester-Prefix.pch
+c00000000522991450000000000000141
+t1378455877
+s321
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/okumura/ARGtester/ARGtester/Default-568h@2x.png
+c000000005229914500000000000048A2
+t1378455877
+s18594
+
+N/Users/okumura/ARGtester/ARGtester/Default.png
+c0000000052299145000000000000198C
+t1378455877
+s6540
+
+N/Users/okumura/ARGtester/ARGtester/Default@2x.png
+c00000000522991450000000000003EEB
+t1378455877
+s16107
+
+N/Users/okumura/ARGtester/ARGtester/RIAppDelegate.h
+c0000000052299145000000000000011A
+t1378455877
+s282
+
+N/Users/okumura/ARGtester/ARGtester/RIAppDelegate.m
+c000000005229914500000000000007DE
+t1378455877
+s2014
+
+N/Users/okumura/ARGtester/ARGtester/RIViewController.h
+c000000005229914500000000000000DC
+t1378455877
+s220
+
+N/Users/okumura/ARGtester/ARGtester/RIViewController.m
+c000000005229914500000000000001F6
+t1378455877
+s502
+
+N/Users/okumura/ARGtester/ARGtester/en.lproj/InfoPlist.strings
+c0000000052299145000000000000002D
+t1378455877
+s45
+
+N/Users/okumura/ARGtester/ARGtester/en.lproj/MainStoryboard.storyboard
+c00000000522991450000000000001D8A
+t1378455877
+s7562
+
+N/Users/okumura/ARGtester/ARGtester/main.m
+c00000000522991450000000000000155
+t1378455877
+s341
+
+N/Users/okumura/ARGtester/Assets
+c000000005229914800000000000000EE
+t1378455880
+s238
+
+N/Users/okumura/ARGtester/EAGLView.h
+c00000000522991450000000000000498
+t1378455877
+s1176
+
+N/Users/okumura/ARGtester/EAGLView.mm
+c00000000522991450000000000002425
+t1378455877
+s9253
+
+N/Users/okumura/ARGtester/MetaioSDKViewController.h
+c00000000522991450000000000000662
+t1378455877
+s1634
+
+N/Users/okumura/ARGtester/MetaioSDKViewController.mm
+c00000000522991450000000000002814
+t1378455877
+s10260
+
+N/Users/okumura/ARGtester/MetaioViewController.h
+c00000000522991450000000000000120
+t1378455877
+s288
+
+N/Users/okumura/ARGtester/MetaioViewController.mm
+c00000000522992B4000000000000058E
+t1378456244
+s1422
+
+N/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester.xcent
+t1378455877
+s412
+
+N/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/ARGtester.LinkFileList
+c00000000522992B400000000000002B8
+t1378456244
+s696
+
+N/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.o
+t1378456245
+s81820
+
+N/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o
+t1378456245
+s153132
+
+N/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o
+t1378456245
+s122748
+
+N/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o
+t1378456245
+s85820
+
+N/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o
+t1378456245
+s67648
+
+N/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o
+t1378456245
+s3348
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app
+t1378456247
+s646
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM
+t1378456246
+s102
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester
+t1378456247
+s7903296
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Assets
+t1378456246
+s238
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Default-568h@2x.png
+t1378455877
+s7014
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Default.png
+t1378455877
+s3688
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Default@2x.png
+t1378455877
+s6316
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Info.plist
+t1378455877
+s1086
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/PkgInfo
+t1378455877
+s8
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ResourceRules.plist
+t1378455877
+s485
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/TrackingData_Marker.xml
+t1378455877
+s8711
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision
+t1378455877
+s7496
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/en.lproj/InfoPlist.strings
+t1378455877
+s42
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/en.lproj/MainStoryboard.storyboardc
+t1378455877
+s238
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/stuhl.jpg
+t1378455877
+s55951
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/stuhl.mtl
+t1378455877
+s427
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/stuhl.obj
+t1378455877
+s76697
+
+N/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/stuhl_shadow.png
+t1378455877
+s53698
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/BackwardCompatibility.h
+c000000005229914500000000000006DE
+t1378455877
+s1758
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/ColorFormat.h
+c00000000522991450000000000000519
+t1378455877
+s1305
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/IBillboardGroup.h
+c00000000522991450000000000000DE4
+t1378455877
+s3556
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/IGeometry.h
+c00000000522991450000000000004961
+t1378455877
+s18785
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/IMetaioSDK.h
+c000000005229914500000000000094CC
+t1378455877
+s38092
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/IMetaioSDKCallback.h
+c00000000522991450000000000001552
+t1378455877
+s5458
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/IMetaioSDKIOS.h
+c0000000052299145000000000000231F
+t1378455877
+s8991
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/IRadar.h
+c0000000052299145000000000000236F
+t1378455877
+s9071
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/ISensorsComponent.h
+c0000000052299145000000000000193C
+t1378455877
+s6460
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/IVisualSearchCallback.h
+c00000000522991450000000000000818
+t1378455877
+s2072
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/MobileStructs.h
+c00000000522991450000000000005347
+t1378455877
+s21319
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/Rotation.h
+c00000000522991450000000000001A60
+t1378455877
+s6752
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/STLCompatibility.h
+c00000000522991450000000000003649
+t1378455877
+s13897
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/SensorValues.h
+c00000000522991450000000000000546
+t1378455877
+s1350
+
+N/Users/okumura/ARGtester/metaioSDK.framework/Headers/TrackingValues.h
+c00000000522991450000000000000EC4
+t1378455877
+s3780
+
+N/Users/okumura/ARGtester/metaioSDK.framework/metaioSDK
+c00000000522991480000000005F76C0C
+t1378455880
+s100101132
+
+N/Users/okumura/ARGtester/object/TrackingData_Marker.xml
+c00000000522991480000000000002207
+t1378455880
+s8711
+
+N/Users/okumura/ARGtester/object/stuhl.jpg
+c0000000052299148000000000000DA8F
+t1378455880
+s55951
+
+N/Users/okumura/ARGtester/object/stuhl.mtl
+c000000005229914800000000000001AB
+t1378455880
+s427
+
+N/Users/okumura/ARGtester/object/stuhl.obj
+c00000000522991480000000000012B99
+t1378455880
+s76697
+
+N/Users/okumura/ARGtester/object/stuhl_shadow.png
+c0000000052299148000000000000C274
+t1378455880
+s49780
 
 N/Users/okumura/Example/NewPro/ARGtester/ARGtester/ARGtester-Prefix.pch
 c000000005228222E0000000000000141
@@ -423,24 +722,24 @@ t1351926776
 s16107
 
 N/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIAppDelegate.h
-c000000005228222E000000000000011A
-t1378361902
-s282
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIAppDelegate.m
-c000000005228222E00000000000007DE
-t1378361902
-s2014
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIViewController.h
-c000000005228222E00000000000000DC
-t1378361902
-s220
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIViewController.m
-c000000005228222E00000000000001F6
-t1378361902
-s502
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/en.lproj/InfoPlist.strings
 c000000005228222E000000000000002D
@@ -453,19 +752,19 @@ t1378450813
 s7562
 
 N/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/main.m
-c000000005228222E0000000000000155
-t1378361902
-s341
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/EAGLView.h
-c00000000522978E10000000000000498
-t1378449633
-s1176
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/EAGLView.mm
-c00000000522969200000000000002425
-t1378445600
-s9253
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/GaBViewController.h
 c00000000000000000000000000000000
@@ -478,24 +777,24 @@ t1378370324
 s310
 
 N/Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.h
-c000000005229690D0000000000000662
-t1378445581
-s1634
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.mm
-c0000000052298A9A00000000000026FA
-t1378454170
-s9978
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/MetaioViewController.h
-c0000000052297A8D0000000000000120
-t1378450061
-s288
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/MetaioViewController.mm
-c0000000052297AAD000000000000014D
-t1378450093
-s333
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester.xcent
 t1378441230
@@ -607,79 +906,79 @@ t1378445896
 s53698
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/BackwardCompatibility.h
-c0000000051E800EC00000000000006DE
-t1374159084
-s1758
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/ColorFormat.h
-c0000000051E800EC0000000000000519
-t1374159084
-s1305
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/IBillboardGroup.h
-c0000000051E800EC0000000000000DE4
-t1374159084
-s3556
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/IGeometry.h
-c0000000051E800EC0000000000004961
-t1374159084
-s18785
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/IMetaioSDK.h
-c0000000051E800EC00000000000094CC
-t1374159084
-s38092
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/IMetaioSDKCallback.h
-c0000000051E800EC0000000000001552
-t1374159084
-s5458
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/IMetaioSDKIOS.h
-c0000000051E800EC000000000000231F
-t1374159084
-s8991
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/IRadar.h
-c0000000051E800EC000000000000236F
-t1374159084
-s9071
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/ISensorsComponent.h
-c0000000051E800EC000000000000193C
-t1374159084
-s6460
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/IVisualSearchCallback.h
-c0000000051E800EC0000000000000818
-t1374159084
-s2072
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/MobileStructs.h
-c0000000051E800EC0000000000005347
-t1374159084
-s21319
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/Rotation.h
-c0000000051E800EC0000000000001A60
-t1374159084
-s6752
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/STLCompatibility.h
-c0000000051E800EC0000000000003649
-t1374159084
-s13897
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/SensorValues.h
-c0000000051E800EC0000000000000546
-t1374159084
-s1350
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/Headers/TrackingValues.h
-c0000000051E800EC0000000000000EC4
-t1374159084
-s3780
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework/metaioSDK
 c0000000051E800F00000000005F76C0C
@@ -729,6 +1028,10 @@ N/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrec
 t1378444427
 s4594180
 
+N/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch.pth
+t1378456245
+s4606624
+
 N/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-bcdyamqrdhcfrvasywolsgvqujql/ARGtester-Prefix.pch.pth
 t1378441226
 s5362236
@@ -761,6 +1064,10 @@ N/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrec
 t1378450624
 s4603380
 
+N/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch.pth
+t1378456245
+s5363084
+
 N/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-edwavozcbvalzzgrilqsmpmmtocf/ARGtester-Prefix.pch.pth
 t1378450624
 s5362320
@@ -773,10 +1080,32 @@ N/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrec
 t1378445652
 s5377084
 
+N/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fzzextssnovdykgxzznfganloxer/ARGtester-Prefix.pch.pth
+t1378456245
+s5379868
+
 NARGtester/ARGtester-Info.plist
-c00000000522831BC00000000000004D0
-t1378365884
+c000000005229914500000000000004D0
+t1378455877
 s1232
+
+CBuild AST from /Users/okumura/ARGtester/ARGtester/RIAppDelegate.m
+r0
+
+CBuild AST from /Users/okumura/ARGtester/ARGtester/RIViewController.m
+r0
+
+CBuild AST from /Users/okumura/ARGtester/ARGtester/main.m
+r0
+
+CBuild AST from /Users/okumura/ARGtester/EAGLView.mm
+r0
+
+CBuild AST from /Users/okumura/ARGtester/MetaioSDKViewController.mm
+r0
+
+CBuild AST from /Users/okumura/ARGtester/MetaioViewController.mm
+r0
 
 CBuild AST from /Users/okumura/Example/NewPro/ARGtester/ARGtester/RIAppDelegate.m
 r0
@@ -822,7 +1151,15 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb64df11fc2d9b741^1cec1920c2d9b741^---0#1#0#--18"Check dependencies36"95D2EA14-95F7-49B8-A78D-BAC9978944FC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies029d897fcad9b741^afce897fcad9b741^---0#1#0#--18"Check dependencies36"39F134DA-5269-4946-8690-6C53A63F0E52-
+
+CCodeSign /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app
+s400149046.450530
+e400149047.544638
+r1
+xCodeSign
+x/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"CodeSign build/Debug-iphoneos/ARGtester.app9d647336cad9b741^656d8b37cad9b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/0000000000000000^744"CodeSign build/Debug-iphoneos/ARGtester.app    cd /Users/okumura/ARGtester    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 61666621c31c3929bf17762e1b09780355262e7f --resource-rules=/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ResourceRules.plist --entitlements /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester.xcent /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app36"BA07136B-3670-4091-826D-543CE714013B-
 
 CCodeSign /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app
 s400137390.842066
@@ -840,6 +1177,19 @@ r1
 xCodeSign
 x/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"CodeSign build/Debug-iphoneos/ARGtester.app4cc16221c2d9b741^758f6c22c2d9b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/0000000000000000^832"CodeSign build/Debug-iphoneos/ARGtester.app    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 61666621c31c3929bf17762e1b09780355262e7f --resource-rules=/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/ResourceRules.plist --entitlements /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester.xcent /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app36"9E812533-7C43-4A66-8918-5264992ADAB4-
+
+CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.o /Users/okumura/ARGtester/EAGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s400149045.134164
+e400149045.407130
+r1
+xCompileC
+xbuild/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.o
+x/Users/okumura/ARGtester/EAGLView.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Compile /Users/okumura/ARGtester/EAGLView.mm5d702235cad9b741^ef396835cad9b741^---0#0#0#-19%DVTDocumentLocation2@52"file://localhost/Users/okumura/ARGtester/EAGLView.mm0000000000000000^3259"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.o EAGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester -fno-objc-arc -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.d --serialize-diagnostics /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.dia -c /Users/okumura/ARGtester/EAGLView.mm -o /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.o36"C60535A0-CF49-4BCE-A0BB-CB4AEDCE5809-
 
 CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/EAGLView.o /Users/okumura/Example/NewPro/ARGtester/EAGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s400135095.614149
@@ -892,6 +1242,26 @@ xarmv7
 xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/okumura/Example/NewPro_change/ARGtester/GaBViewController.mmc6160ad5a0d9b741^f6b249d5a0d9b741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/GaBViewController.mm0000000000000000^3607"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/GaBViewController.o GaBViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro_change/ARGtester -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fltkmntyzpynnlfglbjumfgkryps/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/GaBViewController.d --serialize-diagnostics /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/GaBViewController.dia -c /Users/okumura/Example/NewPro_change/ARGtester/GaBViewController.mm -o /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/GaBViewController.o36"30F3907A-735C-4DA1-B1C2-A022C61478C0-
+
+CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o /Users/okumura/ARGtester/MetaioSDKViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s400149045.190110
+e400149045.467723
+r1
+xCompileC
+xbuild/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o
+x/Users/okumura/ARGtester/MetaioSDKViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/okumura/ARGtester/MetaioSDKViewController.mm:399:6: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o    [self dismissModalViewControllerAnimated:YES];
+o     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here
+o- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/okumura/ARGtester/MetaioSDKViewController.mm09c33035cad9b741^2cbc7735cad9b741^-588"/Users/okumura/ARGtester/MetaioSDKViewController.mm:399:6: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [self dismissModalViewControllerAnimated:YES];     ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-400149045#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-400149045#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@186"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^239#0#239#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@67"file://localhost/Users/okumura/ARGtester/MetaioSDKViewController.mm0000000000000000^398#5#398#5#10206#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@67"file://localhost/Users/okumura/ARGtester/MetaioSDKViewController.mm0000000000000000^3349"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o MetaioSDKViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester -fno-objc-arc -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.d --serialize-diagnostics /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.dia -c /Users/okumura/ARGtester/MetaioSDKViewController.mm -o /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o36"3D2BF211-A5B3-4D69-AB88-13AA406B20C1-
 
 CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o /Users/okumura/Example/NewPro/ARGtester/MetaioSDKViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s400137227.509475
@@ -959,6 +1329,19 @@ o^
 o2 warnings generated.
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.mm17462220c2d9b741^ce526620c2d9b741^-868"/Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.mm:99:15: warning: unused variable 'sdkLicense' [-Wunused-variable]    NSString* sdkLicense = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"MetaioLicenseString"];              ^/Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.mm:394:6: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [self dismissModalViewControllerAnimated:YES];     ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@28"Unused variable 'sdkLicense'-400146976#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@89"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.mm0000000000000000^98#14#98#14#2284#0#19"Unused Entity Issue--2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-400146976#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-400146976#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@186"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^239#0#239#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.mm0000000000000000^393#5#393#5#9924#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@89"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.mm0000000000000000^3657"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o MetaioSDKViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro_change/ARGtester -fno-objc-arc -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-bpemspykwmoktdbuhhfrdmugfdcz/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.d --serialize-diagnostics /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.dia -c /Users/okumura/Example/NewPro_change/ARGtester/MetaioSDKViewController.mm -o /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioSDKViewController.o36"1B794B49-4F16-4C33-AD5E-88A7BB9D3D85-
 
+CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o /Users/okumura/ARGtester/MetaioViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s400149045.195318
+e400149045.448718
+r1
+xCompileC
+xbuild/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o
+x/Users/okumura/ARGtester/MetaioViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/okumura/ARGtester/MetaioViewController.mmce183235cad9b741^2fdf7235cad9b741^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/okumura/ARGtester/MetaioViewController.mm0000000000000000^3317"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o MetaioViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fzzextssnovdykgxzznfganloxer/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.d --serialize-diagnostics /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.dia -c /Users/okumura/ARGtester/MetaioViewController.mm -o /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o36"43C4769B-7060-4E54-A861-72137182963D-
+
 CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o /Users/okumura/Example/NewPro_change/ARGtester/MetaioViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s400144123.381282
 e400144123.663183
@@ -971,6 +1354,19 @@ xarmv7
 xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/okumura/Example/NewPro_change/ARGtester/MetaioViewController.mmaab861fbb6d9b741^f8c5a9fbb6d9b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/MetaioViewController.mm0000000000000000^3625"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o MetaioViewController.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro_change/ARGtester -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-dfblhzhoeqgascgpenpifrcbsadf/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.d --serialize-diagnostics /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.dia -c /Users/okumura/Example/NewPro_change/ARGtester/MetaioViewController.mm -o /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/MetaioViewController.o36"8A40A065-569E-4B1C-B159-2623017CC5FC-
+
+CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o /Users/okumura/ARGtester/ARGtester/RIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400149045.033860
+e400149045.189338
+r1
+xCompileC
+xbuild/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o
+x/Users/okumura/ARGtester/ARGtester/RIAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/okumura/ARGtester/ARGtester/RIAppDelegate.m4dbf0835cad9b741^317c3035cad9b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/okumura/ARGtester/ARGtester/RIAppDelegate.m0000000000000000^3162"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o ARGtester/RIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.d --serialize-diagnostics /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.dia -c /Users/okumura/ARGtester/ARGtester/RIAppDelegate.m -o /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o36"BE77472B-91A4-4D1B-B4DC-509379C9E8EC-
 
 CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o /Users/okumura/Example/NewPro/ARGtester/ARGtester/RIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s400134026.828429
@@ -998,6 +1394,19 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIAppDelegate.m026719fbb6d9b741^a81962fbb6d9b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIAppDelegate.m0000000000000000^3470"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o ARGtester/RIAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro_change/ARGtester -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fjrogatypjgwofhigrzjjnimmzxv/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.d --serialize-diagnostics /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.dia -c /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIAppDelegate.m -o /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIAppDelegate.o36"D737BC3A-0A36-45BD-B0CD-D8DBEA2E0FB4-
 
+CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o /Users/okumura/ARGtester/ARGtester/RIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400149045.127994
+e400149045.189704
+r1
+xCompileC
+xbuild/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o
+x/Users/okumura/ARGtester/ARGtester/RIViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/okumura/ARGtester/ARGtester/RIViewController.mecdc2035cad9b741^9b923035cad9b741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/okumura/ARGtester/ARGtester/RIViewController.m0000000000000000^3180"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o ARGtester/RIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.d --serialize-diagnostics /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.dia -c /Users/okumura/ARGtester/ARGtester/RIViewController.m -o /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o36"A784C4A3-9DCD-4BAE-85B6-4F9D8B7CC006-
+
 CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o /Users/okumura/Example/NewPro/ARGtester/ARGtester/RIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s400134026.976073
 e400134027.067429
@@ -1023,6 +1432,19 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIViewController.m126719fbb6d9b741^8d6261fbb6d9b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIViewController.m0000000000000000^3488"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o ARGtester/RIViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro_change/ARGtester -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fjrogatypjgwofhigrzjjnimmzxv/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.d --serialize-diagnostics /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.dia -c /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIViewController.m -o /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/RIViewController.o36"DE4502BA-D3B4-4743-8861-753D7AD3C899-
+
+CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o /Users/okumura/ARGtester/ARGtester/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400149045.033135
+e400149045.126926
+r1
+xCompileC
+xbuild/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o
+x/Users/okumura/ARGtester/ARGtester/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/okumura/ARGtester/ARGtester/main.m29950835cad9b741^9a0a2135cad9b741^---0#0#0#-19%DVTDocumentLocation2@57"file://localhost/Users/okumura/ARGtester/ARGtester/main.m0000000000000000^3108"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o ARGtester/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.dia -c /Users/okumura/ARGtester/ARGtester/main.m -o /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o36"30FAB4B1-1B32-41AF-84ED-527866AAB55C-
 
 CCompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o /Users/okumura/Example/NewPro/ARGtester/ARGtester/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s400134026.828520
@@ -1050,6 +1472,9 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/main.m537537fbb6d9b741^df8a60fbb6d9b741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/main.m0000000000000000^3416"CompileC build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o ARGtester/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro_change/ARGtester -include /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fjrogatypjgwofhigrzjjnimmzxv/ARGtester-Prefix.pch -MMD -MT dependencies -MF /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.dia -c /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/main.m -o /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/main.o36"7585FAD8-022D-4CC9-BF67-89414F3D2512-
 
+CCompileStoryboard /Users/okumura/ARGtester/ARGtester/en.lproj/MainStoryboard.storyboard
+r0
+
 CCompileStoryboard /Users/okumura/Example/NewPro/ARGtester/ARGtester/en.lproj/MainStoryboard.storyboard
 s400134030.564890
 e400134030.694565
@@ -1066,6 +1491,18 @@ xCompileStoryboard
 x/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/en.lproj/MainStoryboard.storyboard
 o2013-09-06 16:08:48.924 Interface Builder Cocoa Touch Tool[8267:f07] CFPreferences: user home directory at file://localhost/Users/okumura/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"CompileStoryboard ARGtester/en.lproj/MainStoryboard.storyboard062aabfdb6d9b741^f2cd4a01b7d9b741^-239"2013-09-06 16:08:48.924 Interface Builder Cocoa Touch Tool[8267:f07] CFPreferences: user home directory at file://localhost/Users/okumura/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/en.lproj/MainStoryboard.storyboard0000000000000000^901"CompileStoryboard ARGtester/en.lproj/MainStoryboard.storyboard    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/en.lproj/MainStoryboard.storyboardc /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"1B2428CA-0744-4C8E-8DD7-26B84CDC607A-
+
+CCopyPNGFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Default-568h@2x.png ARGtester/Default-568h@2x.png
+r0
+
+CCopyPNGFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Default.png ARGtester/Default.png
+r0
+
+CCopyPNGFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Default@2x.png ARGtester/Default@2x.png
+r0
+
+CCopyPNGFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/stuhl_shadow.png object/stuhl_shadow.png
+r0
 
 CCopyPNGFile /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/Default-568h@2x.png ARGtester/Default-568h@2x.png
 s400134030.538213
@@ -1112,6 +1549,9 @@ x/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.a
 xobject/stuhl_shadow.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"CopyPNGFile build/Debug-iphoneos/ARGtester.app/stuhl_shadow.png object/stuhl_shadow.pnge5b760c8a1d9b741^7bf6d0c8a1d9b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/object/stuhl_shadow.png0000000000000000^614"CopyPNGFile build/Debug-iphoneos/ARGtester.app/stuhl_shadow.png object/stuhl_shadow.png    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/okumura/Example/NewPro_change/ARGtester/object/stuhl_shadow.png /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/stuhl_shadow.png36"D77BBBBB-7507-49B1-821C-3CB66FBC27DD-
 
+CCopyStringsFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/en.lproj/InfoPlist.strings ARGtester/en.lproj/InfoPlist.strings
+r0
+
 CCopyStringsFile /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/en.lproj/InfoPlist.strings ARGtester/en.lproj/InfoPlist.strings
 s400134030.451504
 e400134030.536958
@@ -1132,6 +1572,15 @@ xCpResource
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
 xbuild/Debug-iphoneos/ARGtester.app/ResourceRules.plist
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/ARGtester.app/ResourceRules.plistff1f638a8fd9b741^bbec638a8fd9b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/ResourceRules.plist000000000080d041^732"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/ARGtester.app/ResourceRules.plist    cd /Users/okumura/Example/NewPro/ARGtester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app36"3CB2F67B-16FB-4EBB-9A03-1D33546D3DDE-
+
+CCpResource Assets build/Debug-iphoneos/ARGtester.app/Assets
+s400149046.402128
+e400149046.404738
+r1
+xCpResource
+xAssets
+xbuild/Debug-iphoneos/ARGtester.app/Assets
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/Debug-iphoneos/ARGtester.app/Assets8a046736cad9b741^e99c6736cad9b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Assets000000000080d041^484"CpResource Assets build/Debug-iphoneos/ARGtester.app/Assets    cd /Users/okumura/ARGtester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/okumura/ARGtester/Assets /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app36"8DF4E719-2312-43CA-BA5B-F97EC5811BFE-
 
 CCpResource object build/Debug-iphoneos/ARGtester.app/object
 s400134030.451496
@@ -1178,6 +1627,15 @@ xobject/stuhl.obj
 xbuild/Debug-iphoneos/ARGtester.app/stuhl.obj
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/Debug-iphoneos/ARGtester.app/stuhl.obj09c360c8a1d9b741^210662c8a1d9b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/stuhl.obj000000000080d041^573"CpResource object/stuhl.obj build/Debug-iphoneos/ARGtester.app/stuhl.obj    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/okumura/Example/NewPro_change/ARGtester/object/stuhl.obj /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app36"04062ECF-9DBC-4AED-9B1F-B5D067BCFFE1-
 
+CGenerateDSYMFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester
+s400149119.576143
+e400149119.874069
+r1
+xGenerateDSYMFile
+x/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM
+x/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Generate /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYMa08a937fcad9b741^ecc2df7fcad9b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM/0000000000000000^560"GenerateDSYMFile build/Debug-iphoneos/ARGtester.app.dSYM build/Debug-iphoneos/ARGtester.app/ARGtester    cd /Users/okumura/ARGtester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester -o /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM36"83F587F0-0C6F-4F08-A4A4-BC41C8E2ECBE-
+
 CGenerateDSYMFile /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester
 s400137390.493783
 e400137390.791841
@@ -1195,6 +1653,16 @@ xGenerateDSYMFile
 x/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM
 x/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generate /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYMc9e9e320c2d9b741^e44b5421c2d9b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM/0000000000000000^626"GenerateDSYMFile build/Debug-iphoneos/ARGtester.app.dSYM build/Debug-iphoneos/ARGtester.app/ARGtester    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester -o /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app.dSYM36"23153929-706C-4416-B1BA-3E142300DD2A-
+
+CLd /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester normal armv7
+s400149045.474559
+e400149045.955288
+r1
+xLd
+x/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Link /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtesterda8e7935cad9b741^478ef435cad9b741^---0#0#0#--1305"Ld build/Debug-iphoneos/ARGtester.app/ARGtester normal armv7    cd /Users/okumura/ARGtester    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/okumura/ARGtester/build/Debug-iphoneos -L/Users/okumura/ARGtester/metaioSDK.framework -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester -filelist /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/ARGtester.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework metaioSDK -lxml2 -framework CoreVideo -framework CoreMotion -framework CoreLocation -framework CoreMedia -framework Security -framework AVFoundation -framework OpenGLES -framework AudioToolbox -framework CFNetwork -framework QuartzCore -lz -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester36"D25494A4-6F3A-4661-BEA1-DAF5B0487BFE-
 
 CLd /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester normal armv7
 s400137255.849521
@@ -1215,6 +1683,9 @@ x/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.a
 xnormal
 xarmv7
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester8d296820c2d9b741^6519e220c2d9b741^---0#0#0#--1459"Ld build/Debug-iphoneos/ARGtester.app/ARGtester normal armv7    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -L/Users/okumura/Example/NewPro_change/ARGtester/metaioSDK.framework -F/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro_change/ARGtester -filelist /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/Objects-normal/armv7/ARGtester.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework metaioSDK -lxml2 -framework CoreVideo -framework CoreMotion -framework CoreLocation -framework CoreMedia -framework Security -framework AVFoundation -framework OpenGLES -framework AudioToolbox -framework CFNetwork -framework QuartzCore -lz -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/ARGtester36"4CEDB27B-A2DC-42D7-8F05-CAA7EF76434F-
+
+CProcessInfoPlistFile /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/Info.plist ARGtester/ARGtester-Info.plist
+r0
 
 CProcessInfoPlistFile /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/Info.plist ARGtester/ARGtester-Info.plist
 s400134026.386838
@@ -1237,6 +1708,9 @@ r0
 CProcessPCH /Users/okumura/Library/Developer/Xcode/DerivedData/ARGtester-avblsjogoqyrxzfebvgxiagvxoij/Index/PrecompiledHeaders/ARGtester-Prefix-guxdpswhkpanofecgbdtheiottxs_ast/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
+CProcessPCH /Users/okumura/Library/Developer/Xcode/DerivedData/ARGtester-eclpkawcymulcnbbgadjpunhpqlh/Index/PrecompiledHeaders/ARGtester-Prefix-afbmyxthblslxuhbthfoensnugqb_ast/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
 CProcessPCH /Users/okumura/Library/Developer/Xcode/DerivedData/ARGtester-hedtcoqizvgzenhhruulaliqlboa/Index/PrecompiledHeaders/ARGtester-Prefix-epqxvzvgvdwxyfcwcxoydordnktg_ast/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
@@ -1255,6 +1729,19 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ARGtester/ARGtester-Prefix.pchc03c480b9cd9b741^85cd800b9cd9b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/okumura/Example/NewPro/ARGtester/ARGtester/ARGtester-Prefix.pch0000000000000000^3411"ProcessPCH /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-aswwqvmaamlrzdcmikaefrfuurjz/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/Example/NewPro/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote /Users/okumura/Example/NewPro/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/Example/NewPro/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/Example/NewPro/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/Example/NewPro/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/Example/NewPro/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/Example/NewPro/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro/ARGtester -fno-objc-arc --serialize-diagnostics /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-aswwqvmaamlrzdcmikaefrfuurjz/ARGtester-Prefix.pch.dia -c /Users/okumura/Example/NewPro/ARGtester/ARGtester/ARGtester-Prefix.pch -o /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-aswwqvmaamlrzdcmikaefrfuurjz/ARGtester-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-aswwqvmaamlrzdcmikaefrfuurjz/ARGtester-Prefix.pch.d36"9930C1AB-33A6-485E-85B6-8F110B6D3383-
+
+CProcessPCH /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400149044.769800
+e400149045.026303
+r1
+xProcessPCH
+x/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch.pth
+xARGtester/ARGtester-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ARGtester/ARGtester-Prefix.pch6e33c534cad9b741^fcc70635cad9b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/okumura/ARGtester/ARGtester/ARGtester-Prefix.pch0000000000000000^3232"ProcessPCH /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester --serialize-diagnostics /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch.dia -c /Users/okumura/ARGtester/ARGtester/ARGtester-Prefix.pch -o /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-atmzmzdselcfmohkktchfuydfqgb/ARGtester-Prefix.pch.d36"B854FC11-A9F8-4D7F-8C22-241CEC0E22B3-
 
 CProcessPCH /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-bxclglunburorxcihmpqtzsphiig/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s400134026.405690
@@ -1324,6 +1811,12 @@ CProcessPCH++ /Users/okumura/Library/Developer/Xcode/DerivedData/ARGtester-avbls
 r0
 
 CProcessPCH++ /Users/okumura/Library/Developer/Xcode/DerivedData/ARGtester-avblsjogoqyrxzfebvgxiagvxoij/Index/PrecompiledHeaders/ARGtester-Prefix-gykaoqjadzbomjgkbonswtakfflh_ast/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/okumura/Library/Developer/Xcode/DerivedData/ARGtester-eclpkawcymulcnbbgadjpunhpqlh/Index/PrecompiledHeaders/ARGtester-Prefix-agisqxlrmbslajaotglqvyszccsd_ast/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/okumura/Library/Developer/Xcode/DerivedData/ARGtester-eclpkawcymulcnbbgadjpunhpqlh/Index/PrecompiledHeaders/ARGtester-Prefix-cqdakvghqsxzwfbijjzcaiqnfhux_ast/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
 CProcessPCH++ /Users/okumura/Library/Developer/Xcode/DerivedData/ARGtester-hedtcoqizvgzenhhruulaliqlboa/Index/PrecompiledHeaders/ARGtester-Prefix-bnsztkbbjdyejihbfjzhzvzsaypj_ast/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
@@ -1410,6 +1903,19 @@ xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ARGtester/ARGtester-Prefix.pchc993a03fb4d9b741^43c84940b4d9b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/ARGtester-Prefix.pch0000000000000000^3607"ProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-dhyrjgxlywhcyndlxryjtazpznfg/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro_change/ARGtester --serialize-diagnostics /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-dhyrjgxlywhcyndlxryjtazpznfg/ARGtester-Prefix.pch.dia -c /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/ARGtester-Prefix.pch -o /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-dhyrjgxlywhcyndlxryjtazpznfg/ARGtester-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-dhyrjgxlywhcyndlxryjtazpznfg/ARGtester-Prefix.pch.d36"FCA618A2-A081-4D0F-A71D-83A5190B2860-
 
+CProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s400149044.769789
+e400149045.126697
+r1
+xProcessPCH++
+x/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch.pth
+xARGtester/ARGtester-Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ARGtester/ARGtester-Prefix.pch8f33c534cad9b741^ea072135cad9b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/okumura/ARGtester/ARGtester/ARGtester-Prefix.pch0000000000000000^3379"ProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester -fno-objc-arc --serialize-diagnostics /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch.dia -c /Users/okumura/ARGtester/ARGtester/ARGtester-Prefix.pch -o /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-ecodifyzgtfdnqbzewphjcgvhray/ARGtester-Prefix.pch.d36"CA2D2046-0193-4F43-9A7B-2BE9F9564125-
+
 CProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-edwavozcbvalzzgrilqsmpmmtocf/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s400143423.626695
 e400143424.307351
@@ -1436,6 +1942,22 @@ xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ARGtester/ARGtester-Prefix.pchbb4899d4a0d9b741^5d5308d5a0d9b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/okumura/Example/NewPro_change/ARGtester/ARGtester/ARGtester-Prefix.pch0000000000000000^3607"ProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fltkmntyzpynnlfglbjumfgkryps/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/Example/NewPro_change/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos -F/Users/okumura/Example/NewPro_change/ARGtester --serialize-diagnostics /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fltkmntyzpynnlfglbjumfgkryps/ARGtester-Prefix.pch.dia -c /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/ARGtester-Prefix.pch -o /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fltkmntyzpynnlfglbjumfgkryps/ARGtester-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fltkmntyzpynnlfglbjumfgkryps/ARGtester-Prefix.pch.d36"FDDF9B24-7B7A-4940-97CF-34552B1C78CD-
 
+CProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fzzextssnovdykgxzznfganloxer/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s400149044.769810
+e400149045.188919
+r1
+xProcessPCH++
+x/var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fzzextssnovdykgxzznfganloxer/ARGtester-Prefix.pch.pth
+xARGtester/ARGtester-Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile ARGtester/ARGtester-Prefix.pch2b33c534cad9b741^a9683035cad9b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/okumura/ARGtester/ARGtester/ARGtester-Prefix.pch0000000000000000^3365"ProcessPCH++ /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fzzextssnovdykgxzznfganloxer/ARGtester-Prefix.pch.pth ARGtester/ARGtester-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/okumura/ARGtester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-generated-files.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-own-target-headers.hmap -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-all-target-headers.hmap -iquote /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester-project-headers.hmap -I/Users/okumura/ARGtester/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources/armv7 -I/Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/DerivedSources -F/Users/okumura/ARGtester/build/Debug-iphoneos -F/Users/okumura/ARGtester --serialize-diagnostics /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fzzextssnovdykgxzznfganloxer/ARGtester-Prefix.pch.dia -c /Users/okumura/ARGtester/ARGtester/ARGtester-Prefix.pch -o /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fzzextssnovdykgxzznfganloxer/ARGtester-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/bz/szqphq3j1dldkfwrtsmm6qp00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ARGtester-Prefix-fzzextssnovdykgxzznfganloxer/ARGtester-Prefix.pch.d36"2CC78696-2A49-4E82-BAF8-A80C51ACA5E7-
+
+CProcessProductPackaging "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision
+r0
+
 CProcessProductPackaging "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision
 s400134030.712316
 e400134030.714592
@@ -1446,6 +1968,9 @@ x/Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/embe
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection196"ProcessProductPackaging "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" build/Debug-iphoneos/ARGtester.app/embedded.mobileprovisiona06cb68e8fd9b741^2cefb68e8fd9b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision0000000000000000^684"ProcessProductPackaging "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision    cd /Users/okumura/Example/NewPro/ARGtester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" -o /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision36"751FB68A-DC20-43C3-BA63-1DEA4C86D29F-
 
 CProcessProductPackaging "/Users/okumura/Library/MobileDevice/Provisioning Profiles/A96CDF32-E23F-48D5-96D2-B504ECD48083.mobileprovision" /Users/okumura/Example/NewPro_change/ARGtester/build/Debug-iphoneos/ARGtester.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/okumura/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester.xcent
 r0
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/okumura/Example/NewPro/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester.xcent
@@ -1459,6 +1984,14 @@ lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"Proces
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/okumura/Example/NewPro_change/ARGtester/build/ARGtester.build/Debug-iphoneos/ARGtester.build/ARGtester.xcent
 r0
+
+CTouch /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app
+s400149046.428893
+e400149046.434390
+r1
+xTouch
+x/Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Touch /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app1bd96d36cad9b741^8b366f36cad9b741^---0#0#0#--343"Touch build/Debug-iphoneos/ARGtester.app    cd /Users/okumura/ARGtester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/okumura/ARGtester/build/Debug-iphoneos/ARGtester.app36"A1061BAD-D83D-491F-B82F-01521B2322AC-
 
 CTouch /Users/okumura/Example/NewPro/ARGtester/build/Debug-iphoneos/ARGtester.app
 s400137256.782550

@@ -1,3 +1,2 @@
-dependencies: \
-  /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIViewController.m \
-  /Users/okumura/Example/NewPro_change/ARGtester/ARGtester/RIViewController.h
+dependencies: /Users/okumura/ARGtester/ARGtester/RIViewController.m \
+  /Users/okumura/ARGtester/ARGtester/RIViewController.h
