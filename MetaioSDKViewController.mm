@@ -392,8 +392,6 @@
 }
 
 
-
-
 - (IBAction)onBtnClosePushed:(id)sender
 {
     [self dismissModalViewControllerAnimated:YES];
