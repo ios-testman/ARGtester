@@ -9,6 +9,7 @@
 #import "MetaioViewController.h"
 #import "EAGLView.h"
 
+
 @implementation MetaioViewController
 
 // gesture masks to specify which gesture(s) is enabled
@@ -211,9 +212,23 @@
 // save screenshot button pressed　画面保存
 - (IBAction)onSaveScreen:(id)sender
 {
-    NSArray* paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString* publicDocumentsDir = [paths objectAtIndex:0];
+   // origin
+   // NSArray* paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+   // NSString* publicDocumentsDir = [paths objectAtIndex:0];
     
+    NSString* paths = [self myDocumentsPath];
+    
+    // データ保存用のディレクトリを作成する
+    NSString* publicDocumentsDir = paths;
+    if ([self makeDirForAppContents]) {
+        // ディレクトリに対して「do not backup」属性をセット
+        NSURL* dirUrl = [NSURL fileURLWithPath:paths];
+        [self addSkipBackupAttributeToItemAtURL:dirUrl];
+        publicDocumentsDir = [dirUrl host];
+        
+    }
+    
+        
     NSError* docerror;
     NSArray* files = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:publicDocumentsDir error:&docerror];
     if (files == nil)
@@ -281,7 +296,7 @@
 
 
 // set the camera image as the tracking target
-//カメラ撮影画像保存
+//カメラ撮影 撮影後は画面表示のまま
 - (void) onCameraImageSaved: (NSString*) filepath
 {
     if (filepath.length > 0)
@@ -309,42 +324,61 @@
 }
 
 
-//スクリーンショットの画像アルバム保存
+
 - (void) onScreenshotImageIOS:(UIImage *)image
 {
-    SEL sel = @selector(savingImageIsFinished:didFinishSavingWithError:contextInfo:);
-    UIImageWriteToSavedPhotosAlbum(image, self, sel, nil);
+    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
 }
 
-// 完了を知らせる
-- (void) savingImageIsFinished:(UIImage *)_image didFinishSavingWithError:(NSError *)_error contextInfo:(void *)_contextInfo
+
+
+// ディレクトリ作成(App以下Document内にiCloud対応外のディレクトリ作成
+- (BOOL)makeDirForAppContents
 {
-    NSLog(@"ここでインジケータでもだそうか！");
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSString *baseDir = [self myDocumentsPath];
     
-    if(_error){//エラーのとき
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"エラー"
-                                                        message:@"画像の保存に失敗しました。"
-                                                       delegate:nil
-                                              cancelButtonTitle:nil
-                                              otherButtonTitles:@"OK", nil
-                              ];
-        
-        [alert show];
-        
-    }else{//保存できたとき
-        return;
+    BOOL exists = [fileManager fileExistsAtPath:baseDir];
+    if (!exists) {
+        NSError *error;
+        BOOL created = [fileManager createDirectoryAtPath:baseDir withIntermediateDirectories:YES attributes:nil error:&error];
+        if (!created) {
+            NSLog(@"ERR Directry can't create");
+            return NO;
+        }
+    } else {
+        return NO; // 作成済みの場合はNO
     }
+    return YES;
 }
 
-/*
-//保存確認
-- (void) savingImageIsFinished:(UIImage *)_image
-      didFinishSavingWithError:(NSError *)_error
-                   contextInfo:(void *)_contextInfo
+- (NSString *)myDocumentsPath
 {
-    NSLog(@"finished"); //仮にコンソールに表示する
+    NSString *documentsPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
+    NSString *path = [documentsPath stringByAppendingPathComponent:@"savePic"]; //追加するディレクトリ名を指定
+    return path;
 }
- */
+
+// 指定箇所をiCloudのバックアップ対象外に
+- (BOOL)addSkipBackupAttributeToItemAtURL:(NSURL *)URL
+{
+    assert([[NSFileManager defaultManager] fileExistsAtPath: [URL path]]);
+    
+    NSError *error = nil;
+    
+    BOOL success = [URL setResourceValue: [NSNumber numberWithBool: YES]
+                    
+                                  forKey: NSURLIsExcludedFromBackupKey error: &error];
+    
+    if(!success){
+        
+        NSLog(@"Error excluding %@ from backup %@", [URL lastPathComponent], error);
+        
+    }
+    
+    return success;
+}
+
 
 - (void)viewDidUnload {
     [self setSubview:nil];
