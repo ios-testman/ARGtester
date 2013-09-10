@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A07725C17DF0942003D0596 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A07725B17DF0942003D0596 /* WebViewController.m */; };
 		7A15DD0017D9AEC400CF0C60 /* MetaioViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A15DCFF17D9AEC400CF0C60 /* MetaioViewController.mm */; };
 		7A60E95717DDBBCB00C581A0 /* SimpleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A60E95617DDBBCB00C581A0 /* SimpleImageViewController.m */; };
 		7A652BA317D9CA1300157569 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 7A652BA217D9CA1300157569 /* Assets */; };
@@ -39,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A07725A17DF0942003D0596 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		7A07725B17DF0942003D0596 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		7A15DCFE17D9AEC400CF0C60 /* MetaioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaioViewController.h; sourceTree = "<group>"; };
 		7A15DCFF17D9AEC400CF0C60 /* MetaioViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetaioViewController.mm; sourceTree = "<group>"; };
 		7A60E95517DDBBCB00C581A0 /* SimpleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleImageViewController.h; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 		7AF6FFFE17D859AE00C81863 = {
 			isa = PBXGroup;
 			children = (
+				7A07725A17DF0942003D0596 /* WebViewController.h */,
+				7A07725B17DF0942003D0596 /* WebViewController.m */,
 				7A60E95517DDBBCB00C581A0 /* SimpleImageViewController.h */,
 				7A60E95617DDBBCB00C581A0 /* SimpleImageViewController.m */,
 				7A652BA217D9CA1300157569 /* Assets */,
@@ -257,6 +262,7 @@
 				7AF6004E17D8634400C81863 /* MetaioSDKViewController.mm in Sources */,
 				7A15DD0017D9AEC400CF0C60 /* MetaioViewController.mm in Sources */,
 				7A60E95717DDBBCB00C581A0 /* SimpleImageViewController.m in Sources */,
+				7A07725C17DF0942003D0596 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

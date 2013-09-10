@@ -23,7 +23,7 @@
     NSString* paths = [self myDocumentsPath];
     
     // データ保存用のディレクトリを作成する
-    NSString* publicDocumentsDir = paths;
+    publicDocumentsDir = paths;
     if ([self makeDirForAppContents]) {
         // ディレクトリに対して「do not backup」属性をセット
         NSURL* dirUrl = [NSURL fileURLWithPath:paths];
@@ -33,7 +33,7 @@
     }
     
     NSError* docerror;
-    NSArray* files = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:publicDocumentsDir error:&docerror];
+    files = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:publicDocumentsDir error:&docerror];
     if (files == nil)
     {
         NSLog(@"Error reading contents of documents directory: %@", [docerror localizedDescription]);
@@ -44,7 +44,7 @@
     // bgView の回転 (時計回りに90°)
     // -90°にしないのにはわけがある！
     CGRect originalFrame = self.bgView.frame;
-    self.bgView.center = CGPointMake(320/2,480/2);
+    self.bgView.center = CGPointMake(320/2,460/2);
     self.bgView.transform = CGAffineTransformMakeRotation(M_PI * 90 / 180.0f);
     self.bgView.frame = originalFrame;
     
@@ -53,12 +53,17 @@
     
     // UITableViewも親につられて時計回りに90°回転しているので、一番下のrowが左端になる。
     // よって一番下のrowを最初に表示させる。
-    int FierstRow = 0;
-    if (IMAGE_MAX < 1) {
-        FierstRow = IMAGE_MAX - 1;
+    int FirstRow = 0;
+    if (IMAGE_MAX > 1) { //IMAGE_MAXが0のときのための対応
+        FirstRow = IMAGE_MAX - 1;
     }
-    NSIndexPath* indexPath = [NSIndexPath indexPathForRow:FierstRow inSection:0];
-    [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:NO];
+    
+    // ０件のときの対策
+   if (([self.tableView numberOfSections] > 0) &&
+        ([self.tableView numberOfRowsInSection:0] > 0)){
+        NSIndexPath* indexPath = [NSIndexPath indexPathForRow:FirstRow inSection:0];
+        [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:NO];
+    }
     
     [self.tableView reloadData];
 }
@@ -72,8 +77,9 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+//- (NSInteger)numberOfRowsInSection:(NSInteger)section
 {
-    // 画像の数を返す
+    // section = 1より、セル数は一通り。すなわち画像の数を返す
     return IMAGE_MAX;
 }
 
@@ -86,8 +92,15 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    NSString *cellImageName = [NSString stringWithFormat:@"Sample%d.png",IMAGE_MAX-indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:cellImageName];
+    // ファイル名取得
+    int ans = indexPath.row;
+    NSString* fileName = [files objectAtIndex:(IMAGE_MAX - indexPath.row -1)];
+    NSString* cellImageName = [publicDocumentsDir stringByAppendingPathComponent:fileName];
+    // イメージデータ取得
+    NSData* img_data = [NSData dataWithContentsOfFile:cellImageName];
+    cell.imageView.image = [[UIImage alloc] initWithData:img_data];
+    //cell.imageView.image = [UIImage imageNamed:cellImageName];
+    
     // UITableViewが時計回りに90°回転しているので、cell のコンテンツビューを 反時計回りに90°回転させる。
     cell.contentView.transform = CGAffineTransformMakeRotation(M_PI * (-90) / 180.0f);
     return cell;
