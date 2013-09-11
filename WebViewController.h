@@ -7,19 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Photo.h"
+
 
 @interface WebViewController : UIViewController <UIWebViewDelegate>
 {
-    IBOutlet UIWebView *webView;
-    IBOutlet UIActivityIndicatorView *indicator;
-    Photo *photo;
+    UIWebView *wv;
+    UIActivityIndicatorView* indicator;
 }
 
-@property (nonatomic, retain) Photo *photo;
+@property (nonatomic, retain) UIWebView *wv;
+@property (nonatomic, retain) UIActivityIndicatorView *indicator;
+
+
 
 - (IBAction)onClickCloseBtn:(id)sender;
-- (void) openUrl : (Photo *) _photo;
+
 
 
 

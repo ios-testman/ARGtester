@@ -246,6 +246,12 @@
     //    m_metaioSDK->requestScreenshot(glView->defaultFramebuffer, glView->colorRenderbuffer);
     NSLog(@"framebuffer = %d",glView->defaultFramebuffer);
     
+
+     //カメラロールにもこれを使えば保存可能？
+     UIImage *image = [[UIImage alloc]initWithContentsOfFile:fullPath];
+     [self savePicture:image];
+    
+    
     // generate an alert to notify the user of screenshot saving
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"ATTENTION"
                                                       message:@"The screenshot has been saved to the document folder."
@@ -383,6 +389,15 @@
 - (void)viewDidUnload {
     [self setSubview:nil];
     [super viewDidUnload];
+}
+
+- (void)savePicture:(UIImage*)image {
+    SEL sel = @selector(savingImageIsFinished:didFinishSavingWithError:contextInfo:);
+    UIImageWriteToSavedPhotosAlbum(image, self, sel, nil);
+}
+
+- (void)savingImageIsFinished:(UIImage*)_image didFinishSavingWithError:(NSError*)_error contextInfo:(void*)_contextInfo {
+    NSLog(@"finished photoAlbum");
 }
 
 @end

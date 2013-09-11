@@ -11,59 +11,78 @@
 @implementation WebViewController
 
 
-@synthesize photo;
-- (void) openUrl:(NSURL *)urString
-{
-    [indicator startAnimating];
-    [webView loadRequest:[NSURLRequest requestWithURL:urString]];
-}
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
-
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    [webView setDelegate:self];
-    [indicator setHidesWhenStopped:YES];
-    [[UIApplication sharedApplication] openURL:[self url]];
-    
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-
-- (void)webViewDidFinishLoad:(UIWebView *)webView {
-    [indicator stopAnimating];
-}
-
 - (IBAction)onClickCloseBtn:(id)sender
 {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (NSURL *) url {
-    return [NSURL fileURLWithPath:[NSString stringWithFormat:@"http://graphuploder.herokuapp.com"]];
+
+@synthesize wv;
+@synthesize indicator;
+
+-(void)viewDidLoad {
+    
+
+    /*
+    NSURL *urlsafari = [NSURL URLWithString:@"http://graphuploder.herokuapp.com"];
+    [[UIApplication sharedApplication] openURL:urlsafari];
+    */
+
+    [self.view setBackgroundColor:[UIColor colorWithRed:100/256.0 green:100/256.0 blue:100/256.0 alpha:1.0f]];
+    
+    //webview1を作成
+    self.wv = [[UIWebView alloc] init];
+    self.wv.delegate = self;
+    self.wv.frame = CGRectMake(0, 33, 320, 480);
+    self.wv.backgroundColor = [UIColor blackColor];
+    self.wv.alpha = 0.9;
+    self.wv.scalesPageToFit = YES;
+    NSURL *url = [NSURL URLWithString:@"http://graphuploder.herokuapp.com"];
+    NSURLRequest *req = [NSURLRequest requestWithURL:url];
+    [self.wv loadRequest:req];
+    [self.view addSubview:self.wv];
+    
+    //インジケーターを用意する
+    self.indicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    self.indicator.frame = CGRectMake((320/2)-20, (510/2)-60, 40, 40);
+    [self.view addSubview:self.indicator];
+}
+
+
+//WEBの読み込みを開始したら
+- (void)webViewDidStartLoad:(UIWebView*)webView {
+    //インジケーターの表示
+    [indicator startAnimating];
+}
+
+//WEBの読み込み成功したら
+- (void)webViewDidFinishLoad:(UIWebView*)webView {
+    //インジケーターの非表示
+    [indicator stopAnimating];
+}
+
+//WEBの読み込みに失敗したら
+- (void)webView:(UIWebView*)webView
+didFailLoadWithError:(NSError*)error {
+    //インジケーターの非表示
+    [indicator stopAnimating];
+}
+
+// ページ読込開始時にインジケータをくるくるさせる
+// ※これは、ページの上の時間とかが表示されてるところに表示させるやつです。
+/*
+-(void)webViewDidStartLoad:(UIWebView*)wv{
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+}
+-(void)webViewDidFinishLoad:(UIWebView*)wv{
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+}
+*/
+
+- (void)dealloc {
+   // [wv release];
+   // [indicator release];
+   // [super dealloc];
 }
 
 @end
