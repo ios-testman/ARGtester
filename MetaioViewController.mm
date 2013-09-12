@@ -61,8 +61,8 @@
     
     
     // set button images to each state　アイコン画像を非表示に
-    NSString* Button_OFF = @"button_chair_unselected";
-    NSString* Button_ON = @"button_chair_selected";
+    NSString* Button_OFF = @"Assets/button_chair_unselected";
+    NSString* Button_ON = @"Assets/button_chair_selected";
     for (UIView* subView in self.view.subviews)
     {
         if ([subView isKindOfClass:[UIButton class]])
@@ -175,7 +175,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-//オブジェクト表示（3dオブジェクト　直方体の立方体)
+//オブジェクト表示（3dオブジェクト　直方体の立方体になる予定)
 - (IBAction)onPrinterButtonClick:(id)sender
 {
     UIButton* button = (UIButton*)sender;
@@ -246,12 +246,6 @@
     //    m_metaioSDK->requestScreenshot(glView->defaultFramebuffer, glView->colorRenderbuffer);
     NSLog(@"framebuffer = %d",glView->defaultFramebuffer);
     
-
-     //カメラロールにもこれを使えば保存可能？
-     UIImage *image = [[UIImage alloc]initWithContentsOfFile:fullPath];
-     [self savePicture:image];
-    
-    
     // generate an alert to notify the user of screenshot saving
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"ATTENTION"
                                                       message:@"The screenshot has been saved to the document folder."
@@ -259,7 +253,8 @@
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];
     [message show];
-}
+    
+   }
 
 // reset the app -- reactivate the camera, hide the geometries and change the button state (selected) from true to false
 // 表示中のオブジェクトを排除し、やり直す
@@ -391,13 +386,5 @@
     [super viewDidUnload];
 }
 
-- (void)savePicture:(UIImage*)image {
-    SEL sel = @selector(savingImageIsFinished:didFinishSavingWithError:contextInfo:);
-    UIImageWriteToSavedPhotosAlbum(image, self, sel, nil);
-}
-
-- (void)savingImageIsFinished:(UIImage*)_image didFinishSavingWithError:(NSError*)_error contextInfo:(void*)_contextInfo {
-    NSLog(@"finished photoAlbum");
-}
 
 @end

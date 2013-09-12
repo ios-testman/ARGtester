@@ -93,7 +93,6 @@
     }
     
     // ファイル名取得
-    int ans = indexPath.row;
     NSString* fileName = [files objectAtIndex:(IMAGE_MAX - indexPath.row -1)];
     NSString* cellImageName = [publicDocumentsDir stringByAppendingPathComponent:fileName];
     // イメージデータ取得
