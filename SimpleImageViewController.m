@@ -7,6 +7,7 @@
 //
 
 #import "SimpleImageViewController.h"
+#import "UploaderViewContoller.h"
 
 @implementation SimpleImageViewController
 
@@ -15,11 +16,35 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+// 表示画像の削除
+- (IBAction)onClickDeleteBtn:(id)sender {
+    
+    NSString* deleteFileName = cellImageName;
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    NSError *error;
+    BOOL result = [fileManager removeItemAtPath:deleteFileName error:&error];
+    if (result) {
+        NSLog(@"ファイルを削除に成功：%@", deleteFileName);
+    } else {
+        NSLog(@"ファイルの削除に失敗：%@", error.description);
+    }
+    //[self.tableView reloadData];
+    [self settingView];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
+    [self settingView];
+}
+
+-(void) settingView {
+
     IMAGE_MAX = 1;
+    [_uploadGraph setEnabled:NO];
+    [_deleteGraph setEnabled:NO];
     NSString* paths = [self myDocumentsPath];
     
     // データ保存用のディレクトリを作成する
@@ -60,9 +85,11 @@
     
     // ０件のときの対策
    if (([self.tableView numberOfSections] > 0) &&
-        ([self.tableView numberOfRowsInSection:0] > 0)){
+        ([self.tableView numberOfRowsInSection:0] > 1)){
         NSIndexPath* indexPath = [NSIndexPath indexPathForRow:FirstRow inSection:0];
         [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:NO];
+       [_uploadGraph setEnabled:YES];
+       [_deleteGraph setEnabled:YES];
     }
     
     [self.tableView reloadData];
@@ -93,8 +120,10 @@
     }
     
     // ファイル名取得
-    NSString* fileName = [files objectAtIndex:(IMAGE_MAX - indexPath.row -1)];
-    NSString* cellImageName = [publicDocumentsDir stringByAppendingPathComponent:fileName];
+    //NSString* fileName = [files objectAtIndex:(IMAGE_MAX - indexPath.row -1)];
+    NSString* fileName = [files objectAtIndex:(indexPath.row)];
+    cellImageName = [publicDocumentsDir stringByAppendingPathComponent:fileName];
+    checkNumber = indexPath;
     // イメージデータ取得
     NSData* img_data = [NSData dataWithContentsOfFile:cellImageName];
     cell.imageView.image = [[UIImage alloc] initWithData:img_data];
@@ -157,6 +186,36 @@
     }
     
     return success;
+}
+
+
+//遷移時に表示画面の画像名を渡す。
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+  /*
+   UITableViewCell *cell0 = [self findUITableViewCellFromSuperViewsForView:sender];
+    NSIndexPath * indexPath = [self.tableView indexPathForCell:cell0];
+    NSString* fileName = [files objectAtIndex:(indexPath.row)];
+    cellImageName = [publicDocumentsDir stringByAppendingPathComponent:fileName];
+  */
+    UploaderViewContoller *controller = [segue destinationViewController];
+    controller->fullPath = cellImageName;
+    
+    NSLog(@"send filename %@",cellImageName);
+}
+
+- (UITableViewCell *)findUITableViewCellFromSuperViewsForView:(id)view {
+    if (![view isKindOfClass:[UIView class]]) {
+        return nil;
+    }
+    UIView *superView = view;
+    while (superView) {
+        if ([superView isKindOfClass:[UITableViewCell class]]) {
+            break;
+        }
+        superView = [superView superview];
+    }
+    return (UITableViewCell *)superView;
 }
 
 

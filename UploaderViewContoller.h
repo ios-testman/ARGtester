@@ -7,16 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SimpleImageViewController.h"
 
-@interface UploaderViewContoller : UIViewController
+@interface UploaderViewContoller : UIViewController <UIWebViewDelegate>
 {
-    NSArray* files;
-    NSString* publicDocumentsDir;
-    int IMAGE_MAX;
+    @public
     NSString* fullPath;
+    
+    @private
+    UIWebView *wv;
+    UIActivityIndicatorView* indicator;
 
 }
-- (IBAction)onClickUpload:(id)sender;
+
 - (IBAction)onClickCloseBtn:(id)sender;
+
+@property (nonatomic, retain) UIWebView *wv;
+@property (nonatomic, retain) UIActivityIndicatorView *indicator;
 
 @end

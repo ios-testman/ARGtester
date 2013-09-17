@@ -17,9 +17,14 @@
     int IMAGE_MAX;
     NSArray* files;
     NSString* publicDocumentsDir;
+    NSString* cellImageName ;
+    NSIndexPath * checkNumber;
 }
 @property (weak, nonatomic) IBOutlet UIView *bgView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 - (IBAction)onClickCloseBtn:(id)sender;
+- (IBAction)onClickDeleteBtn:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *uploadGraph;
+@property (weak, nonatomic) IBOutlet UIButton *deleteGraph;
 
 @end

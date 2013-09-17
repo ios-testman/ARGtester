@@ -10,65 +10,61 @@
 
 @implementation UploaderViewContoller
 
+@synthesize wv;
+@synthesize indicator;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    NSString* paths = [self myDocumentsPath];
+    //登録画像を１枚かメラロールにコピー
+    [self sevePhotosAlbum];
     
-    // データ保存用のディレクトリを作成する
-    publicDocumentsDir = paths;
-    if ([self makeDirForAppContents]) {
-        // ディレクトリに対して「do not backup」属性をセット
-        NSURL* dirUrl = [NSURL fileURLWithPath:paths];
-        [self addSkipBackupAttributeToItemAtURL:dirUrl];
-        publicDocumentsDir = [dirUrl host];
-        
-    }
-    
-    NSError* docerror;
-    files = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:publicDocumentsDir error:&docerror];
-    if (files == nil)
-    {
-        NSLog(@"Error reading contents of documents directory: %@", [docerror localizedDescription]);
-    }
-    
-    IMAGE_MAX = [files count];
-}
-
-- (IBAction)onClickUpload:(id)sender {
-
-    NSLog(@"IMAGE_MAX = %d",IMAGE_MAX);
-    for (int num = 0; num < IMAGE_MAX; num++) {
-        // ファイル名取得
-        NSString* fileName = [files objectAtIndex:num];
-        fullPath = [publicDocumentsDir stringByAppendingPathComponent:fileName];
-    
-        //カメラロールにもこれを使えば保存可能？
-     
-      
-        NSData* img_data = [NSData dataWithContentsOfFile:fullPath];
-        UIImage *image = [[UIImage alloc] initWithData:img_data];
-   
-        
-        [self savePicture:image];
-        NSLog(@"Saved %@",fullPath);
-    }
+    // 画面作成
     
     /*
-    NSURL *urlsafari = [NSURL URLWithString:@"http://graphuploder.herokuapp.com"];
-    [[UIApplication sharedApplication] openURL:urlsafari];
+     NSURL *urlsafari = [NSURL URLWithString:@"http://graphuploder.herokuapp.com"];
+     [[UIApplication sharedApplication] openURL:urlsafari];
      */
+    
+    [self.view setBackgroundColor:[UIColor colorWithRed:100/256.0 green:100/256.0 blue:100/256.0 alpha:1.0f]];
+    
+    //webview1を作成
+    self.wv = [[UIWebView alloc] init];
+    self.wv.delegate = self;
+    self.wv.frame = CGRectMake(0, 33, 320, 480);
+    self.wv.backgroundColor = [UIColor blackColor];
+    self.wv.alpha = 0.9;
+    self.wv.scalesPageToFit = YES;
+    NSURL *url = [NSURL URLWithString:@"http://graphuploader.herokuapp.com"];
+    NSURLRequest *req = [NSURLRequest requestWithURL:url];
+    [self.wv loadRequest:req];
+    [self.view addSubview:self.wv];
+    
+    //インジケーターを用意する
+    self.indicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    self.indicator.frame = CGRectMake((320/2)-20, (510/2)-60, 40, 40);
+    [self.view addSubview:self.indicator];
+}
+
+- (void)sevePhotosAlbum {
+
+   
+    //カメラロールにもこれを使えば保存可能？
+    NSLog(@"save file name = %@",fullPath);
+    NSData* img_data = [NSData dataWithContentsOfFile:fullPath];
+    UIImage *image = [[UIImage alloc] initWithData:img_data];
+   
+        
+    [self savePicture:image];
+    NSLog(@"Saved %@",fullPath);
 }
 
 - (IBAction)onClickCloseBtn:(id)sender {
-    
-    //画像削除
-    [self removeGraphfromPhotoAlubum];
-    
     //画面終了
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
 
 - (void)savePicture:(UIImage*)image
 {
@@ -162,5 +158,31 @@
     }
     */
 }
+
+//WEBの読み込みを開始したら
+- (void)webViewDidStartLoad:(UIWebView*)webView {
+    //インジケーターの表示
+    [indicator startAnimating];
+}
+
+//WEBの読み込み成功したら
+- (void)webViewDidFinishLoad:(UIWebView*)webView {
+    //インジケーターの非表示
+    [indicator stopAnimating];
+}
+
+//WEBの読み込みに失敗したら
+- (void)webView:(UIWebView*)webView
+didFailLoadWithError:(NSError*)error {
+    //インジケーターの非表示
+    [indicator stopAnimating];
+}
+
+- (void)dealloc {
+    // [wv release];
+    // [indicator release];
+    // [super dealloc];
+}
+
 
 @end

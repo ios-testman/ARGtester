@@ -22,13 +22,11 @@
 
 -(void)viewDidLoad {
     
-
-    
+/*
     NSURL *urlsafari = [NSURL URLWithString:@"http://graphuploder.herokuapp.com"];
     [[UIApplication sharedApplication] openURL:urlsafari];
+*/
     
-    
-/*
     [self.view setBackgroundColor:[UIColor colorWithRed:100/256.0 green:100/256.0 blue:100/256.0 alpha:1.0f]];
     
     //webview1を作成
@@ -38,7 +36,7 @@
     self.wv.backgroundColor = [UIColor blackColor];
     self.wv.alpha = 0.9;
     self.wv.scalesPageToFit = YES;
-    NSURL *url = [NSURL URLWithString:@"http://graphuploder.herokuapp.com"];
+    NSURL *url = [NSURL URLWithString:@"http://graphuploader.herokuapp.com"];
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
     [self.wv loadRequest:req];
     [self.view addSubview:self.wv];
@@ -47,7 +45,6 @@
     self.indicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
     self.indicator.frame = CGRectMake((320/2)-20, (510/2)-60, 40, 40);
     [self.view addSubview:self.indicator];
-*/
  }
 
 
@@ -69,17 +66,6 @@ didFailLoadWithError:(NSError*)error {
     //インジケーターの非表示
     [indicator stopAnimating];
 }
-
-// ページ読込開始時にインジケータをくるくるさせる
-// ※これは、ページの上の時間とかが表示されてるところに表示させるやつです。
-/*
--(void)webViewDidStartLoad:(UIWebView*)wv{
-    [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-}
--(void)webViewDidFinishLoad:(UIWebView*)wv{
-    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-}
-*/
 
 - (void)dealloc {
    // [wv release];

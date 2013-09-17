@@ -13,23 +13,8 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2YJ-NL-Pf0">
-                                <rect key="frame" x="65" y="185" width="191" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="上">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="onClickUpload:" destination="c4S-wk-dlQ" eventType="touchUpInside" id="rcZ-t0-ECm"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hl6-bU-aOP">
-                                <rect key="frame" x="65" y="262" width="191" height="44"/>
+                                <rect key="frame" x="288" y="0.0" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="終">
@@ -49,7 +34,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bu7-2H-lCV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="70" y="-612"/>
+            <point key="canvasLocation" x="552" y="1496"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5">
@@ -74,21 +59,6 @@
                                     <segue destination="B1A-8f-uPF" kind="modal" id="dA3-6j-Sa1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dI1-We-4Fq">
-                                <rect key="frame" x="20" y="140" width="280" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="Upload">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="c4S-wk-dlQ" kind="modal" id="Bg6-f1-WzF"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fz1-il-9ZX">
                                 <rect key="frame" x="124" y="221" width="73" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -104,7 +74,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DUb-Wu-I02">
-                                <rect key="frame" x="20" y="272" width="280" height="51"/>
+                                <rect key="frame" x="20" y="348" width="280" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Server">
@@ -119,7 +89,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZjA-ip-VJr">
-                                <rect key="frame" x="20" y="338" width="280" height="51"/>
+                                <rect key="frame" x="20" y="280" width="280" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="In App">
@@ -288,7 +258,37 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="onClickCloseBtn:" destination="ap3-HO-qWA" eventType="touchUpInside" id="L1x-me-n5x"/>
+                                    <action selector="onClickCloseBtn:" destination="ap3-HO-qWA" eventType="touchUpInside" id="AsV-Q4-eKK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kdB-jg-DZ8">
+                                <rect key="frame" x="10" y="0.0" width="64" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="画転送">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="c4S-wk-dlQ" kind="modal" id="y2k-zK-E5i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7ZJ-gk-saH">
+                                <rect key="frame" x="84" y="0.0" width="64" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="画削除">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickDeleteBtn:" destination="ap3-HO-qWA" eventType="touchUpInside" id="gZE-fj-gSS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -297,7 +297,9 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="bgView" destination="x7x-XZ-jJ9" id="LAX-Od-d90"/>
+                        <outlet property="deleteGraph" destination="7ZJ-gk-saH" id="YYH-zP-c1r"/>
                         <outlet property="tableView" destination="419-kF-H3n" id="FwI-J4-mX7"/>
+                        <outlet property="uploadGraph" destination="kdB-jg-DZ8" id="OI9-9d-slK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="se2-Xt-057" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -369,15 +371,17 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SimpleImageViewController.h"/>
             <relationships>
                 <relationship kind="action" name="onClickCloseBtn:"/>
+                <relationship kind="action" name="onClickDeleteBtn:"/>
                 <relationship kind="outlet" name="bgView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="deleteGraph" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="uploadGraph" candidateClass="UIButton"/>
             </relationships>
         </class>
         <class className="UploaderViewContoller" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/UploaderViewContoller.h"/>
             <relationships>
                 <relationship kind="action" name="onClickCloseBtn:"/>
-                <relationship kind="action" name="onClickUpload:"/>
             </relationships>
         </class>
         <class className="WebViewController" superclassName="UIViewController">

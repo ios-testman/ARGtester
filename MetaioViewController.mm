@@ -247,10 +247,10 @@
     NSLog(@"framebuffer = %d",glView->defaultFramebuffer);
     
     // generate an alert to notify the user of screenshot saving
-    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"ATTENTION"
-                                                      message:@"The screenshot has been saved to the document folder."
+    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"報告"
+                                                      message:@"画面画像をアプリ内フォルダに保存しました"
                                                      delegate:nil
-                                            cancelButtonTitle:@"OK"
+                                            cancelButtonTitle:@"確認終了"
                                             otherButtonTitles:nil];
     [message show];
     
