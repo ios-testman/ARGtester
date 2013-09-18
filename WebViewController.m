@@ -22,10 +22,11 @@
 
 -(void)viewDidLoad {
     
-/*
-    NSURL *urlsafari = [NSURL URLWithString:@"http://graphuploder.herokuapp.com"];
+
+    NSURL *urlsafari = [NSURL URLWithString:@"http://graphuploader.herokuapp.com"];
     [[UIApplication sharedApplication] openURL:urlsafari];
-*/
+
+    /*
     
     [self.view setBackgroundColor:[UIColor colorWithRed:100/256.0 green:100/256.0 blue:100/256.0 alpha:1.0f]];
     
@@ -45,6 +46,7 @@
     self.indicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
     self.indicator.frame = CGRectMake((320/2)-20, (510/2)-60, 40, 40);
     [self.view addSubview:self.indicator];
+     */
  }
 
 
