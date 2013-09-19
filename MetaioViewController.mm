@@ -38,7 +38,7 @@
     
     // load content　データ読み込み
     // load chair テストで椅子のデータを扱う。でも本番プリンタなのでファイル名はプリンタ統一
-    NSString *PrinterPath = [self findAssetFromName:@"stuhl" ofType:@"obj"]; //ファイルパス確認
+    NSString *PrinterPath = [self findAssetFromName:@"printerobject" ofType:@"obj"]; //ファイルパス確認
    // NSString* PrinterPath = [[NSBundle mainBundle] pathForResource:@"stuhl" ofType:@"obj" inDirectory:@"tutorialContent_crossplatform/Tutorial7/Assets7"];
     if (PrinterPath)
     {
@@ -46,7 +46,7 @@
         m_chair = m_metaioSDK->createGeometry([PrinterPath UTF8String]);
         if (m_chair)
         {
-            m_chair->setScale(metaio::Vector3d(50.0, 50.0, 50.0));
+            m_chair->setScale(metaio::Vector3d(100.0, 100.0, 100.0));
             //rotate the chair to be upright
             m_chair->setRotation(metaio::Rotation(M_PI_2, 0.0, 0.0));
             m_chair->setTranslation(metaio::Vector3d(0.0, 0.0, 0.0));
@@ -61,8 +61,10 @@
     
     
     // set button images to each state　アイコン画像を非表示に
-    NSString* Button_OFF = @"Assets/button_chair_unselected";
-    NSString* Button_ON = @"Assets/button_chair_selected";
+    //NSString* Button_OFF = @"Assets/button_chair_unselected";
+    //NSString* Button_ON = @"Assets/button_chair_selected";
+    NSString* Button_OFF = @"button_chair_unselected";
+    NSString* Button_ON = @"button_chair_selected";
     for (UIView* subView in self.view.subviews)
     {
         if ([subView isKindOfClass:[UIButton class]])
